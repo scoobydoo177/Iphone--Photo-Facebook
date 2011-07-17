@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8E17AF13D2DBE800E95695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E17AE13D2DBE800E95695 /* UIKit.framework */; };
+		4E8E17B113D2DBE800E95695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E17B013D2DBE800E95695 /* Foundation.framework */; };
+		4E8E17B313D2DBE800E95695 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E17B213D2DBE800E95695 /* CoreGraphics.framework */; };
+		4E8E17B913D2DBE800E95695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E17B713D2DBE800E95695 /* InfoPlist.strings */; };
+		4E8E17BC13D2DBE800E95695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E17BB13D2DBE800E95695 /* main.m */; };
+		4E8E17BF13D2DBE800E95695 /* PhotoFacebookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E17BE13D2DBE800E95695 /* PhotoFacebookAppDelegate.m */; };
+		4E8E17C213D2DBE800E95695 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E17C013D2DBE800E95695 /* MainWindow.xib */; };
+		4E8E17C513D2DBE800E95695 /* PhotoFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E17C413D2DBE800E95695 /* PhotoFacebookViewController.m */; };
+		4E8E17C813D2DBE800E95695 /* PhotoFacebookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E17C613D2DBE800E95695 /* PhotoFacebookViewController.xib */; };
+		4E8E17CF13D2DBE800E95695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E17AE13D2DBE800E95695 /* UIKit.framework */; };
+		4E8E17D013D2DBE800E95695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E17B013D2DBE800E95695 /* Foundation.framework */; };
+		4E8E17D113D2DBE800E95695 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8E17B213D2DBE800E95695 /* CoreGraphics.framework */; };
+		4E8E17D913D2DBE800E95695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E17D713D2DBE800E95695 /* InfoPlist.strings */; };
+		4E8E17DC13D2DBE800E95695 /* PhotoFacebookTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4E8E17DB13D2DBE800E95695 /* PhotoFacebookTests.h */; };
+		4E8E17DE13D2DBE800E95695 /* PhotoFacebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E17DD13D2DBE800E95695 /* PhotoFacebookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8E17D213D2DBE800E95695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8E17A113D2DBE700E95695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8E17A913D2DBE800E95695;
+			remoteInfo = PhotoFacebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8E17AA13D2DBE800E95695 /* PhotoFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8E17AE13D2DBE800E95695 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E8E17B013D2DBE800E95695 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E8E17B213D2DBE800E95695 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E8E17B613D2DBE800E95695 /* PhotoFacebook-Info.plist */ = {isa = PBXFileReference; path = "PhotoFacebook-Info.plist"; sourceTree = "<group>"; };
+		4E8E17B813D2DBE800E95695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E8E17BA13D2DBE800E95695 /* PhotoFacebook-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoFacebook-Prefix.pch"; sourceTree = "<group>"; };
+		4E8E17BB13D2DBE800E95695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8E17BD13D2DBE800E95695 /* PhotoFacebookAppDelegate.h */ = {isa = PBXFileReference; path = PhotoFacebookAppDelegate.h; sourceTree = "<group>"; };
+		4E8E17BE13D2DBE800E95695 /* PhotoFacebookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFacebookAppDelegate.m; sourceTree = "<group>"; };
+		4E8E17C113D2DBE800E95695 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4E8E17C313D2DBE800E95695 /* PhotoFacebookViewController.h */ = {isa = PBXFileReference; path = PhotoFacebookViewController.h; sourceTree = "<group>"; };
+		4E8E17C413D2DBE800E95695 /* PhotoFacebookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFacebookViewController.m; sourceTree = "<group>"; };
+		4E8E17C713D2DBE800E95695 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PhotoFacebookViewController.xib; sourceTree = "<group>"; };
+		4E8E17CE13D2DBE800E95695 /* PhotoFacebookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFacebookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8E17D613D2DBE800E95695 /* PhotoFacebookTests-Info.plist */ = {isa = PBXFileReference; path = "PhotoFacebookTests-Info.plist"; sourceTree = "<group>"; };
+		4E8E17D813D2DBE800E95695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E8E17DA13D2DBE800E95695 /* PhotoFacebookTests-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoFacebookTests-Prefix.pch"; sourceTree = "<group>"; };
+		4E8E17DB13D2DBE800E95695 /* PhotoFacebookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFacebookTests.h; sourceTree = "<group>"; };
+		4E8E17DD13D2DBE800E95695 /* PhotoFacebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFacebookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8E17A713D2DBE800E95695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E17AF13D2DBE800E95695 /* UIKit.framework in Frameworks */,
+				4E8E17B113D2DBE800E95695 /* Foundation.framework in Frameworks */,
+				4E8E17B313D2DBE800E95695 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8E17CA13D2DBE800E95695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E17CF13D2DBE800E95695 /* UIKit.framework in Frameworks */,
+				4E8E17D013D2DBE800E95695 /* Foundation.framework in Frameworks */,
+				4E8E17D113D2DBE800E95695 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8E179F13D2DBE700E95695 = {
+			isa = PBXGroup;
+			children = (
+				4E8E17B413D2DBE800E95695 /* PhotoFacebook */,
+				4E8E17D413D2DBE800E95695 /* PhotoFacebookTests */,
+				4E8E17AD13D2DBE800E95695 /* Frameworks */,
+				4E8E17AB13D2DBE800E95695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8E17AB13D2DBE800E95695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E17AA13D2DBE800E95695 /* PhotoFacebook.app */,
+				4E8E17CE13D2DBE800E95695 /* PhotoFacebookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8E17AD13D2DBE800E95695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E17AE13D2DBE800E95695 /* UIKit.framework */,
+				4E8E17B013D2DBE800E95695 /* Foundation.framework */,
+				4E8E17B213D2DBE800E95695 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E8E17B413D2DBE800E95695 /* PhotoFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E17BD13D2DBE800E95695 /* PhotoFacebookAppDelegate.h */,
+				4E8E17BE13D2DBE800E95695 /* PhotoFacebookAppDelegate.m */,
+				4E8E17C013D2DBE800E95695 /* MainWindow.xib */,
+				4E8E17C313D2DBE800E95695 /* PhotoFacebookViewController.h */,
+				4E8E17C413D2DBE800E95695 /* PhotoFacebookViewController.m */,
+				4E8E17C613D2DBE800E95695 /* PhotoFacebookViewController.xib */,
+				4E8E17B513D2DBE800E95695 /* Supporting Files */,
+			);
+			path = PhotoFacebook;
+			sourceTree = "<group>";
+		};
+		4E8E17B513D2DBE800E95695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E17B613D2DBE800E95695 /* PhotoFacebook-Info.plist */,
+				4E8E17B713D2DBE800E95695 /* InfoPlist.strings */,
+				4E8E17BA13D2DBE800E95695 /* PhotoFacebook-Prefix.pch */,
+				4E8E17BB13D2DBE800E95695 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8E17D413D2DBE800E95695 /* PhotoFacebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E17DB13D2DBE800E95695 /* PhotoFacebookTests.h */,
+				4E8E17DD13D2DBE800E95695 /* PhotoFacebookTests.m */,
+				4E8E17D513D2DBE800E95695 /* Supporting Files */,
+			);
+			path = PhotoFacebookTests;
+			sourceTree = "<group>";
+		};
+		4E8E17D513D2DBE800E95695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8E17D613D2DBE800E95695 /* PhotoFacebookTests-Info.plist */,
+				4E8E17D713D2DBE800E95695 /* InfoPlist.strings */,
+				4E8E17DA13D2DBE800E95695 /* PhotoFacebookTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8E17A913D2DBE800E95695 /* PhotoFacebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8E17E113D2DBE800E95695 /* Build configuration list for PBXNativeTarget "PhotoFacebook" */;
+			buildPhases = (
+				4E8E17A613D2DBE800E95695 /* Sources */,
+				4E8E17A713D2DBE800E95695 /* Frameworks */,
+				4E8E17A813D2DBE800E95695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoFacebook;
+			productName = PhotoFacebook;
+			productReference = 4E8E17AA13D2DBE800E95695 /* PhotoFacebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8E17CD13D2DBE800E95695 /* PhotoFacebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8E17E413D2DBE800E95695 /* Build configuration list for PBXNativeTarget "PhotoFacebookTests" */;
+			buildPhases = (
+				4E8E17C913D2DBE800E95695 /* Sources */,
+				4E8E17CA13D2DBE800E95695 /* Frameworks */,
+				4E8E17CB13D2DBE800E95695 /* Resources */,
+				4E8E17CC13D2DBE800E95695 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8E17D313D2DBE800E95695 /* PBXTargetDependency */,
+			);
+			name = PhotoFacebookTests;
+			productName = PhotoFacebookTests;
+			productReference = 4E8E17CE13D2DBE800E95695 /* PhotoFacebookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8E17A113D2DBE700E95695 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E8E17A413D2DBE700E95695 /* Build configuration list for PBXProject "PhotoFacebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E8E179F13D2DBE700E95695;
+			productRefGroup = 4E8E17AB13D2DBE800E95695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8E17A913D2DBE800E95695 /* PhotoFacebook */,
+				4E8E17CD13D2DBE800E95695 /* PhotoFacebookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8E17A813D2DBE800E95695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E17B913D2DBE800E95695 /* InfoPlist.strings in Resources */,
+				4E8E17C213D2DBE800E95695 /* MainWindow.xib in Resources */,
+				4E8E17C813D2DBE800E95695 /* PhotoFacebookViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8E17CB13D2DBE800E95695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E17D913D2DBE800E95695 /* InfoPlist.strings in Resources */,
+				4E8E17DC13D2DBE800E95695 /* PhotoFacebookTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E8E17CC13D2DBE800E95695 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8E17A613D2DBE800E95695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E17BC13D2DBE800E95695 /* main.m in Sources */,
+				4E8E17BF13D2DBE800E95695 /* PhotoFacebookAppDelegate.m in Sources */,
+				4E8E17C513D2DBE800E95695 /* PhotoFacebookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8E17C913D2DBE800E95695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8E17DE13D2DBE800E95695 /* PhotoFacebookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8E17D313D2DBE800E95695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8E17A913D2DBE800E95695 /* PhotoFacebook */;
+			targetProxy = 4E8E17D213D2DBE800E95695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8E17B713D2DBE800E95695 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8E17B813D2DBE800E95695 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E8E17C013D2DBE800E95695 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8E17C113D2DBE800E95695 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4E8E17C613D2DBE800E95695 /* PhotoFacebookViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8E17C713D2DBE800E95695 /* en */,
+			);
+			name = PhotoFacebookViewController.xib;
+			sourceTree = "<group>";
+		};
+		4E8E17D713D2DBE800E95695 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8E17D813D2DBE800E95695 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8E17DF13D2DBE800E95695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E8E17E013D2DBE800E95695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4E8E17E213D2DBE800E95695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFacebook/PhotoFacebook-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFacebook/PhotoFacebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E8E17E313D2DBE800E95695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFacebook/PhotoFacebook-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFacebook/PhotoFacebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E8E17E513D2DBE800E95695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoFacebook.app/PhotoFacebook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFacebookTests/PhotoFacebookTests-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFacebookTests/PhotoFacebookTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E8E17E613D2DBE800E95695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoFacebook.app/PhotoFacebook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFacebookTests/PhotoFacebookTests-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFacebookTests/PhotoFacebookTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8E17A413D2DBE700E95695 /* Build configuration list for PBXProject "PhotoFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8E17DF13D2DBE800E95695 /* Debug */,
+				4E8E17E013D2DBE800E95695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8E17E113D2DBE800E95695 /* Build configuration list for PBXNativeTarget "PhotoFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8E17E213D2DBE800E95695 /* Debug */,
+				4E8E17E313D2DBE800E95695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8E17E413D2DBE800E95695 /* Build configuration list for PBXNativeTarget "PhotoFacebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8E17E513D2DBE800E95695 /* Debug */,
+				4E8E17E613D2DBE800E95695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8E17A113D2DBE700E95695 /* Project object */;
+}
